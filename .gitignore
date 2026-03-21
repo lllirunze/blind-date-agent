@@ -1,6 +1,9 @@
 # venv
 agent
 
+# env
+.env
+
 # vscode
 .vscode
 
