@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #eef2f3;
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+/* 左栏 */
+.sidebar {
+    width: 20%;
+    background: #dfe7e9;
+    padding: 10px;
+}
+
+.conv-item {
+    padding: 8px;
+    margin: 5px 0;
+    background: #f5f7f7;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.conv-item:hover {
+    background: #cfd8dc;
+}
+
+/* 中间 */
+.chat-panel {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background: #f0f4f5;
+}
+
+.chat-history {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.msg {
+    margin: 6px 0;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.msg.target {
+    background: #d1e8e2;
+}
+
+.msg.ai {
+    background: #ffffff;
+}
+
+/* 输入 */
+.chat-input {
+    display: flex;
+    padding: 10px;
+    background: #e3f2fd;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 8px;
+}
+
+.chat-input button {
+    margin-left: 10px;
+}
+
+/* 右栏 */
+.score-panel {
+    width: 20%;
+    background: #e8f5e9;
+    padding: 10px;
+}
+
+.analysis-box {
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 6px;
+}
